@@ -26,7 +26,7 @@ class Stack:
             
             self.items[self.top] = data
 
-            # Write code here
+            # Write code 
 
     def pop(self):
         if not self.is_empty():
