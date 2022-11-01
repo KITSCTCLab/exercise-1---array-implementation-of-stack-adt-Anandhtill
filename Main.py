@@ -32,8 +32,7 @@ class Stack:
             
             self.top -= 1
             return data
-            # Write code here
-
+            
     def status(self):
         for i in range(self.top+1):
             
