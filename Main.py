@@ -11,23 +11,21 @@ class Stack:
             return True
         else:
             return False
-        # Write code here
+       
 
     def is_full(self):
         if (self.top == self.size-1):
            return True
         else:
            return False
-        # Write code here
-
+       
     def push(self, data):
         if not self.is_full():
             self.top += 1
             
             self.items[self.top] = data
 
-            # Write code 
-
+         
     def pop(self):
         if not self.is_empty():
             data = self.items[self.top]
@@ -41,7 +39,7 @@ class Stack:
             
             print(self.items[i])
 
-        # Write code here
+       
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
